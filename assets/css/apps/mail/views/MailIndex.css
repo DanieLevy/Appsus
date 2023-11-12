@@ -1,0 +1,17 @@
+ /* mail index  */
+
+ .mail-index {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+    color: #4d4d4d;
+    background-color: #f6f8fc;
+    height: calc(100vh - 100px);
+ }
+
+ .mail-container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 140px);
+ }

@@ -1,0 +1,47 @@
+.note-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.pinned-section-container,
+.others-section-container {
+    position: relative;
+    padding: 0px 19px 0px 19px;
+    columns: 4 340px;
+    column-gap: 10px;
+}
+
+.pinned-section,
+.others-section {
+    padding: 10px 19px;
+}
+
+.no-notes-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.note-sidebar {
+    position: absolute;
+    background-color: #F6F8FC;
+    z-index: 1;
+    height: 100vh;
+    border-right: 5px;
+}
+
+.hidden-div {
+    width: 70px;
+}
+
+#note-side-bar {
+    height: 100%;
+    border-radius: 0px 10px 0px 0px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#note-side-bar-container {
+    height: 100vh;
+}
